@@ -1,2 +1,2 @@
 # portfolio
-This repository contains portfolios.
+This repository contains portfolio.
