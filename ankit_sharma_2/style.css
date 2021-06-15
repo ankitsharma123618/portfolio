@@ -50,12 +50,21 @@ a:hover{
 	top:10px;right:0px;
 	height:100%;
 }
-/*.header .right-bar .menu{
-}*/
+.header .right-bar .menu{
+	padding:30px;
+}
+.header .right-bar .menu a{
+	display:block;
+	width:max-content;
+}
 .header .right-bar .social{
-	position:absolute;
+	padding: 10px;
+  position: absolute;
 	bottom:10px;
 }
 .header .right-bar .social a:hover{
 	background: none;
+}
+.header .right-bar .social a img{
+	width:30px;height:30px;
 }
