@@ -60,13 +60,19 @@ a:hover{
 .footer{
 	padding:30px;
 	background: rgb(40,40,40);
+	position: relative;
 }
 .footer .social{
 	width:50%;
+	position:absolute;
+	right:0px;top:30px;
 }
 .social img{
 	width:20px;height:20px;
 }
 .social a:hover{
 	background: none;
+}
+.footer .contact{
+	width:50%;
 }
