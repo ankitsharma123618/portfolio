@@ -15,7 +15,7 @@ a{
 a:hover{
 	background:red;
 }
-.header .title{
+.title{
 	text-decoration:underline solid 3px;
 	margin-bottom: 50px;
 	color:rgb(255, 43, 43);
@@ -32,39 +32,41 @@ a:hover{
 	padding:60px;
 	position: relative;
 }
-.header .left-bar{
+ .left-bar{
 	width:50%;
 }
-.header .left-bar .image{
+ .left-bar .image{
 	width:100%;
 }
-.header .left-bar .image img{
+ .left-bar .image img{
 	width:100%;height:100%;
 }
-.header .bio{
+ .bio{
 	width:100%;
 }
-.header .right-bar{
+ .right-bar{
 	width:50%;
 	position:absolute;
 	top:10px;right:0px;
 	height:100%;
 }
-.header .right-bar .menu{
+ .right-bar .menu{
 	padding:30px;
 }
-.header .right-bar .menu a{
+ .right-bar .menu a{
 	display:block;
 	width:max-content;
 }
-.header .right-bar .social{
-	padding: 10px;
-  position: absolute;
-	bottom:10px;
+.footer{
+	padding:30px;
+	background: rgb(40,40,40);
 }
-.header .right-bar .social a:hover{
-	background: none;
+.footer .social{
+	width:50%;
 }
-.header .right-bar .social a img{
+.social img{
 	width:30px;height:30px;
+}
+.social a:hover{
+	background: none;
 }
